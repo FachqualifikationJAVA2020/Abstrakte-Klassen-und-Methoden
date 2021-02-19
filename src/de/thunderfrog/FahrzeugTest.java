@@ -2,7 +2,7 @@ package de.thunderfrog;
 
 public class FahrzeugTest {
 	/*
-	 * Hier m�chte ich die verschiedenen Fahrzeugklassen instanziieren
+	 * Hier möchte ich die verschiedenen Fahrzeugklassen instanziieren
 	 * und ausprobieren "probefahren" :)
 	 * 
 	 * Fahrzeug selber kann ich nicht instanziieren, weil es abstract ist
@@ -48,7 +48,7 @@ public class FahrzeugTest {
 		/*
 		 * So geht es nicht, Hersteller ist ja private
 		 * 
-		 * Also �ber den Konstruktor(hersteller,leistung,baujahr)
+		 * Also über den Konstruktor(hersteller,leistung,baujahr)
 		 */
 		mr = new Motorrad("Honda",400,2002);
 		/*
@@ -56,6 +56,12 @@ public class FahrzeugTest {
 		 * eingetragen wurden, geben wir das einmal aus: 
 		 */
 		System.out.println(mr);
+
+		Auto auto = new Auto("Mercedes",800,2023,4);
+		System.out.println(auto);
+		f = auto;
+		f.fahren();
+
 	}
 	
 	

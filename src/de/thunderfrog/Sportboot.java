@@ -12,6 +12,7 @@ public class Sportboot extends Fahrzeug{
 	 * den parametrisierten Konstruktor der Oberklasse aufruft:
 	 */
 	public Sportboot(String hersteller, int leistung, int baujahr) {
+
 		super(hersteller,leistung,baujahr);
 	}
 	
